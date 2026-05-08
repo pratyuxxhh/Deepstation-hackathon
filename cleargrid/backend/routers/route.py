@@ -1,8 +1,20 @@
+import copy
 from fastapi import APIRouter
+from data.loader import load_bins
+from agents.forecaster import run_forecaster
+from agents.dispatcher import build_route
 
 router = APIRouter(tags=["Route"])
 
+
 @router.get("/route")
-def get_route():
-    """Returns TSP-optimized route. Placeholder — agent logic in Phase 2."""
-    return {"waypoints": [], "total_distance_km": 0, "polyline": [], "depot": {"lat": 12.9716, "lng": 77.5946}}
+def get_optimized_route():
+    """
+    Runs the full agent pipeline:
+    Agent 1 (precomputed in mock data) → Agent 2 (Forecaster) → Agent 3 (Dispatcher)
+    Returns TSP-optimized route for all required bins.
+    """
+    bins = copy.deepcopy(load_bins())
+    bins = run_forecaster(bins)
+    route = build_route(bins)
+    return route
