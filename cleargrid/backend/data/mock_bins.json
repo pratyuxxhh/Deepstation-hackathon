@@ -192,7 +192,7 @@
     "status_color": "BLUE"
   },
   {
-    "node_id": "BIN_401",
+    "node_id": "BIN_219",
     "location": { "lat": 12.9634, "lng": 77.5877 },
     "current_fill_percentage": 55,
     "time_to_next_cycle_hrs": 20.0,
