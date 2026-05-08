@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Leaflet z-index fix */
+.leaflet-container {
+  z-index: 0;
+}
+
+/* PURPLE marker pulse animation */
+@keyframes pulse-purple {
+  0%, 100% { opacity: 0.9; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.15); }
+}
+
+.leaflet-interactive[fill="#a855f7"] {
+  animation: pulse-purple 2s ease-in-out infinite;
+}
+
+/* Markdown prose overrides for HazMat HUD */
+.prose h2 {
+  color: #e2e8f0;
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+.prose strong {
+  color: #f1f5f9;
+}
+
+.prose ul {
+  color: #cbd5e1;
+}
+
+.prose ol {
+  color: #cbd5e1;
+}
+
+.prose p {
+  color: #94a3b8;
+}
+
+.prose em {
+  color: #64748b;
+}
