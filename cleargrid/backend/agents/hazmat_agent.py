@@ -4,11 +4,6 @@ import os
 from pathlib import Path
 from openai import OpenAI
 
-client = OpenAI(
-    api_key=os.environ.get("GROQ_API_KEY", ""),
-    base_url="https://api.groq.com/openai/v1"
-)
-
 REGULATIONS_DIR = Path(__file__).parent.parent / "data" / "regulations"
 
 
@@ -114,6 +109,15 @@ def generate_safety_brief(node_id: str, hazard_type: str) -> dict:
     disposal_facility = facility_map.get(hazard_type)
 
     try:
+        groq_key = os.environ.get("GROQ_API_KEY", "")
+        if not groq_key:
+            raise ValueError("GROQ_API_KEY not set — using fallback brief")
+
+        client = OpenAI(
+            api_key=groq_key,
+            base_url="https://api.groq.com/openai/v1"
+        )
+
         regulations_context = load_regulations()
 
         user_prompt = f"""Bin ID: {node_id}

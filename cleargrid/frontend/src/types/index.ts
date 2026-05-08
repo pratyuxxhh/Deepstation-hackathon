@@ -32,5 +32,5 @@ export interface HazMatBrief {
   safety_instructions: string;   // RAG-generated Markdown
   regulation_citations: string[];
   reroute_required: boolean;
-  disposal_facility: { lat: number; lng: number; name: string } | null;
+  disposal_facility: { lat: number; lng: number; name: string; address?: string } | null;
 }
