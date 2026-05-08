@@ -1,0 +1,19 @@
+OCCUPATIONAL SAFETY, HEALTH AND WORKING CONDITIONS CODE, 2020
+Relevant Sections for Hazardous Waste Handling
+
+Section 15 - Duties of Employers re: Hazardous Processes:
+- Employers must maintain health records for workers handling hazardous substances.
+- Every worker handling hazardous materials must be provided appropriate PPE at no cost.
+- Mandatory training on safe handling procedures before assignment to hazardous tasks.
+
+Section 22 - Personal Protective Equipment:
+- Class-D fire gloves (leather, heat-resistant to 300°C) required for lithium battery handling.
+- N95 or P100 respirators required for dust-generating hazardous waste operations.
+- Full-face shields required when handling chemical drums with unknown contents.
+- Chemical-resistant aprons and boot covers for liquid chemical spill scenarios.
+
+Section 31 - Emergency Procedures:
+- All hazardous waste vehicles must carry a Hazchem emergency response kit.
+- Driver must not attempt to move a lithium battery showing visible damage or thermal event.
+- Emergency contact: National Chemical Emergency Centre (NCEC): 0120-2588081.
+- Lithium fires: NEVER use water. Use Class-D extinguisher (dry sand or copper powder).

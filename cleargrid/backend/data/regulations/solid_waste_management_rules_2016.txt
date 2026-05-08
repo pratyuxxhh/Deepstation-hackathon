@@ -1,0 +1,23 @@
+SOLID WASTE MANAGEMENT RULES, 2016
+Ministry of Environment, Forest and Climate Change
+
+Rule 4 - Segregation at Source:
+- Hazardous waste (batteries, e-waste, chemicals) must never be mixed with general municipal solid waste.
+- Generators of hazardous waste are responsible for proper segregation before handover.
+- Color coding: Black bag = general waste, Green bag = wet waste, Red bag = hazardous/biomedical.
+
+Rule 16 - Transportation of Hazardous Waste:
+- Hazardous waste must be transported in sealed, leak-proof containers with hazard labels.
+- Transport vehicles must display HAZCHEM placards appropriate to the waste class.
+- Lithium-ion batteries fall under Class 9 (Miscellaneous Dangerous Goods) per ADG code.
+- Medical waste (syringes) falls under Class 6.2 (Infectious Substances).
+
+Rule 22 - Treatment and Disposal Facilities:
+- Class 9 (Lithium batteries): Must be sent to authorized e-waste dismantler/recycler.
+- Class 6.2 (Biomedical): Must go to Common Biomedical Waste Treatment Facility (CBWTF).
+- Chemical drums (unlabeled): Must go to TSDF (Treatment, Storage, and Disposal Facility).
+- No hazardous waste to be landfilled without prior treatment authorization from SPCB.
+
+Rule 24 - Swachh Bharat Mission 2.0 Compliance:
+- All ULBs must achieve 100% scientific disposal of hazardous waste by 2026.
+- Door-to-door hazardous waste collection to be integrated into regular SWM schedule.

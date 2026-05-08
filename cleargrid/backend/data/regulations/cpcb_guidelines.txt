@@ -1,0 +1,26 @@
+CENTRAL POLLUTION CONTROL BOARD (CPCB) — HAZARDOUS WASTE GUIDELINES
+
+Authorized Disposal Facilities (Bengaluru):
+- KSPCB TSDF (Class 9 / Chemical): Dobaspet Industrial Area, Bengaluru — 560090
+  Contact: +91-80-23440985
+- Saahas Zero Waste (E-Waste / Lithium): Whitefield, Bengaluru — 560066
+  Contact: +91-80-41134585
+- Parikrama CBWTF (Biomedical): Bommasandra, Bengaluru — 560099
+  Contact: +91-80-27834500
+
+Lithium Battery Specific Protocol (CPCB Circular 2022):
+- Do not stack damaged lithium batteries. Transport individually in sand-filled containers.
+- Minimum 1m separation from other flammable materials during transport.
+- If battery is hot or swollen: do not handle. Call NCEC immediately: 0120-2588081.
+
+Medical Waste (Syringes) Protocol:
+- Use puncture-resistant containers only (yellow rigid sharps box).
+- Never recap needles. Place directly into sharps container.
+- Double-bag the sharps container in red biohazard bags before loading into vehicle.
+- Driver must wear nitrile gloves (minimum 5 mil thickness) + face shield.
+
+Chemical Drum (Unknown Contents) Protocol:
+- Do not open. Do not tip. Keep upright at all times.
+- Full-face respirator required (SCBA if confined space).
+- Photograph label remnants and report to KSPCB hazmat team before transport.
+- Transport only after KSPCB hazmat team verbal clearance.
