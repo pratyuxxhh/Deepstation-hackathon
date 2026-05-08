@@ -1,0 +1,1 @@
+here will be full info about the frontend , theme , design everything
