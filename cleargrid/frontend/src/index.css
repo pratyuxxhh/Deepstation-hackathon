@@ -5,14 +5,14 @@
   z-index: 0;
 }
 
-/* PURPLE marker pulse animation */
-@keyframes pulse-purple {
-  0%, 100% { opacity: 0.9; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.15); }
+/* PURPLE marker blink animation */
+@keyframes blink-purple {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
 }
 
 .leaflet-interactive[fill="#a855f7"] {
-  animation: pulse-purple 2s ease-in-out infinite;
+  animation: blink-purple 1s step-end infinite;
 }
 
 /* Markdown prose overrides for HazMat HUD */
